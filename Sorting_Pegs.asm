@@ -22,8 +22,6 @@ tempVar: dd 0
 discs: dd 0
 msg: db "%d",10,0
 
-SECTION .bss        	;uninitalized data
-
 SECTION .text
 extern printf
 global asm_main
